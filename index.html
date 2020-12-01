@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TvojPotez | Web Aplikacija</title>
+    <title>TvojPotez | Web Application</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/login.css" />
+    <link rel="icon" href="./images/icon.ico" type="image/gif" sizes="16x16" />
   </head>
-  <body></body>
+  <body>
+    <div id="login" class="login">
+      <img
+        id="login__logo"
+        class="login__logo"
+        src="./images/logo.png"
+        alt="Official logo of the club"
+      />
+      <form id="login__form" class="login__form" action="">
+        <input class="login__form__input" type="text" placeholder="Username" />
+        <input
+          class="login__form__input"
+          type="password"
+          placeholder="Password"
+        />
+        <input class="login__form__submit" type="submit" value="Log in" />
+      </form>
+    </div>
+  </body>
 </html>
