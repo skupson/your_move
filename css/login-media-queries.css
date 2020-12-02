@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1025px) {
+  .login {
+    flex-direction: row;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 2rem;
+  }
+  .login__logo {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html,
+  body {
+    font-size: 24px;
+  }
+  .login__form {
+    width: 70%;
+  }
+}
