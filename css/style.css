@@ -120,8 +120,15 @@ body {
   border: 2px solid #ffffff;
   color: #ffffff;
   font-size: 0.8rem;
+  transition: 0.6s;
 }
 
 .login__form__submit:focus {
   outline: 0;
+}
+
+.login__form__submit:hover {
+  background-color: #ffffff;
+  color: var(--blue);
+  cursor: pointer;
 }
