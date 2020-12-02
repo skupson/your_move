@@ -1,3 +1,13 @@
+@media only screen and (min-width: 768px) {
+  html,
+  body {
+    font-size: 24px;
+  }
+  .login__form {
+    width: 70%;
+  }
+}
+
 @media only screen and (min-width: 1025px) {
   .login {
     flex-direction: row;
@@ -12,12 +22,9 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1921px) {
   html,
   body {
-    font-size: 24px;
-  }
-  .login__form {
-    width: 70%;
+    font-size: 36px;
   }
 }
